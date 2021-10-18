@@ -1,7 +1,7 @@
 package step7_01.classArray;
 import java.util.Scanner;
 
-class Subject8{ //과목 클래스
+class Subject8{ //과목 클래스 >name, score
 	
 	String name;
 	int score;
@@ -9,7 +9,7 @@ class Subject8{ //과목 클래스
 }
 
 
-class Student8{//학생>과목
+class Student8{//학생>subjects(name,score),name
 	
 	Subject8[] subjects;
 	String name;
@@ -51,7 +51,7 @@ public class ClassArrayEx08_정답예시 {
 			System.out.println("[4]종료하기");
 			int choice = scan.nextInt();
 			
-			if (choice == 1) {
+			if (choice == 1) { //학생 추가하기를 선택하였음
 				
 				System.out.print("이름 입력 : ");
 				String name = scan.next();
@@ -61,7 +61,7 @@ public class ClassArrayEx08_정답예시 {
 				stdCnt++;			
 			}
 			
-			else if (choice == 2) {
+			else if (choice == 2) { //과목 추가하기 선택!!
 				
 				for (int i=0; i<stdCnt; i++) {
 					System.out.println("[" + (i+1) + "]" + stdList[i].name);
