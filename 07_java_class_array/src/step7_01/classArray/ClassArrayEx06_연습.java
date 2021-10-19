@@ -19,7 +19,7 @@ public class ClassArrayEx06_연습 {
 
 	public static void main(String[] args) {
 
-		MemberManager mg = new MemberManager(); // mg ->memberList->name, num	
+		MemberManager mg = new MemberManager(); // mg ->memberList->name, num
 		Member m1 = new Member();// m1값 정의, Member값
 		mg.memberList[0] = m1; // mg ->memberList의 첫번째 배열==m1 -> name==김철수, num==1001	
 		m1.name = "김철수";

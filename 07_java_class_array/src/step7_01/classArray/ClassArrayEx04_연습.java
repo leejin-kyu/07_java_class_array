@@ -12,7 +12,7 @@ public class ClassArrayEx04_연습 {
 
 	public static void main(String[] args) {
 		
-		User1[] user1 = new User1[2]; //user1의 배열을 2개를 생성하고 (User1의 의미는?)
+		User1[] user1 = new User1[2]; //user1의 배열을 2개를 생성하고 (user1에는 User1타입의 자료들이 입력됨)
 		
 		for (int i=0; i<user1.length; i++) { //user1배열의 크기 만큼 >i
 			user1[i] = new User1(); //user1i의 배열의 순서, 각 배열마다 User1이 대응됨
