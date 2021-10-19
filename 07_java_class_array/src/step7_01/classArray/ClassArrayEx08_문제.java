@@ -13,7 +13,6 @@ import java.util.Scanner; //Scanner 호출
 //}
 //
 
-
 public class ClassArrayEx08_문제 {  //크래스
 
 	public static void main(String[] args) {

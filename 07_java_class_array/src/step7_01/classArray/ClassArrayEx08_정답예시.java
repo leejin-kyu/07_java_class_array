@@ -1,20 +1,21 @@
 package step7_01.classArray;
 import java.util.Scanner;
 
-class Subject8{ //과목 클래스 >name, score
-	
-	String name;
-	int score;
-
-}
-
 
 class Student8{//학생>subjects(name,score),name
 	
 	Subject8[] subjects;
 	String name;
-
 }
+
+
+class Subject8{ //과목 클래스 >name, score
+	
+	String name;
+	int score;
+}
+
+
 
 
 public class ClassArrayEx08_정답예시 {
