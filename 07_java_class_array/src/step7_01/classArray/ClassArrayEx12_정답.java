@@ -19,7 +19,6 @@ class StudentVO{
 	
 }
 
-
 class StudentManager{
 	
 	ArrayList<StudentVO> studentList = new ArrayList<StudentVO>();

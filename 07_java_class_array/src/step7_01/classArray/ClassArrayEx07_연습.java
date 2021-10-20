@@ -13,7 +13,6 @@ class Subject{
 	
 	String name;
 	int score;
-	
 }
 
 

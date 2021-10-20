@@ -11,7 +11,6 @@ class Member{ //Member->name,num
 class MemberManager{
 
 	Member[] memberList = new Member[3]; // MemberManger->memberList(Member 값)->name,num //memberList->name,num
-
 }
 
 
